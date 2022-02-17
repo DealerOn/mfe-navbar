@@ -1,0 +1,24 @@
+.navbar {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	padding: 10px 0 0;
+	margin-bottom: 60px;
+}
+
+.navbar a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: darkgray;
+	margin-right: 30px;
+	padding: 20px;
+	color: #fff;
+	cursor: pointer;
+	transition: background 0.25s ease-in-out;
+}
+
+.navbar a:hover,
+.navbar.active {
+	background-color: darkblue;
+}

@@ -1,1 +1,1 @@
-# mfe-navbar
+# Microfrontend Navbar
